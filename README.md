@@ -6,23 +6,25 @@
 * Normalize Raw Sensor Data
 * Weight
 * Sum of Sensor Data 
+* (Not Completed) Stop
+* (Not Completed) Acceleration
 
 ## Project Information
 
 ### Software
 
 [Atmel Studio 7](http://studio.download.atmel.com/7.0.2389/as-installer-7.0.2389-full.exe "Atmel Studio 7")
-
+#### PID Control
 <pre><code>proportional = position - 2000;
 derivative = proportional - last_proportional;
 integral += proportional;
 last_proportional = proportional;
 power_error = proportional * Kp + integral * Ki + derivative * Kd;</code></pre>
-
+#### Normalize
 <code>y = (x - min) / (max - min) * resolution</code>
-
+#### Weight
 <code>WeightData = NormallizaedData * Weight</code>
-
+#### Sensor Control 
 <code>Sum += WeightedData</code>
 
 ### Hardware
