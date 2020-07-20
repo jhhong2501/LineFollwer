@@ -26,7 +26,9 @@ power_error = proportional * Kp + integral * Ki + derivative * Kd;</code></pre>
 <code>WeightData = NormallizaedData * Weight</code>
 #### Sensor Control 
 <code>Sum += WeightedData</code>
+
 <hr/>
+
 ### Hardware
 
 [Atmega128 datasheet](http://ww1.microchip.com/downloads/en/devicedoc/doc2467.pdf "Atmega128 datasheet")
