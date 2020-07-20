@@ -4,10 +4,12 @@
 
 * PWM Control
 * Normalize Raw Sensor Data
+* Weight
+* Sum of Sensor Data 
 
 ## Project Information
 
-### Installation
+### Software
 
 [Atmel Studio 7](http://studio.download.atmel.com/7.0.2389/as-installer-7.0.2389-full.exe "Atmel Studio 7")
 
@@ -17,6 +19,15 @@ integral += proportional;
 last_proportional = proportional;
 power_error = proportional * Kp + integral * Ki + derivative * Kd;</code></pre>
 
+<pre><code>proportional = position - 2000;
+derivative = proportional - last_proportional;
+integral += proportional;
+last_proportional = proportional;
+power_error = proportional * Kp + integral * Ki + derivative * Kd;</code></pre>
+
+<code>y = (x - min) / (max - min) * resolution</code>
+
+<code>WeightData = NormallizaedData * Weight</code>
 
 ### Hardware
 
