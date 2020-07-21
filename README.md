@@ -39,8 +39,11 @@ power_error = proportional * Kp + integral * Ki + derivative * Kd;</code></pre>
 #### Sensor Control 
 <code>Sum += WeightedData</code>
 
-#### Chattering - Low Pass Filter
+#### Chattering
 
+* Low Pass filter
+
+* Debounce
 
 <hr/>
 
