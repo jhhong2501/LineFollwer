@@ -68,8 +68,11 @@ power_error = proportional * Kp + integral * Ki + derivative * Kd;</code></pre>
 #### IR Sensor
 [ST3811 datasheet](https://www.alldatasheet.com/datasheet-pdf/pdf/77990/AUK/ST3811.html "ST3811")
 
+<hr/>
 
-### Reference
+<hr/>
+
+## Reference
 
 [Normalizing](http://theultimatelinefollower.blogspot.com/2015/12/reading-calibrating-and-normalizing.html "Normalizing")
 
