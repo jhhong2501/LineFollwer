@@ -29,12 +29,18 @@ derivative = proportional - last_proportional;
 integral += proportional;
 last_proportional = proportional;
 power_error = proportional * Kp + integral * Ki + derivative * Kd;</code></pre>
+
 #### Normalize
 <code>y = (x - min) / (max - min) * resolution</code>
+
 #### Weight
 <code>WeightData = NormallizaedData * Weight</code>
+
 #### Sensor Control 
 <code>Sum += WeightedData</code>
+
+#### Chattering - Low Pass Filter
+
 
 <hr/>
 
