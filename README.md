@@ -9,6 +9,10 @@
 * (Not Completed) Stop
 * (Not Completed) Acceleration
 
+<hr/>
+
+<hr/>
+
 ## Project Information
 
 ### Software
@@ -56,7 +60,6 @@ power_error = proportional * Kp + integral * Ki + derivative * Kd;</code></pre>
 [SI3311-H datasheet](https://www.alldatasheet.co.kr/datasheet-pdf/pdf_kor/154905/AUK/SI3311-H.html "SI3311-H")
 
 [ST3811 datasheet](https://www.alldatasheet.com/datasheet-pdf/pdf/77990/AUK/ST3811.html "ST3811")
-
 
 
 ### Reference
