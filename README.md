@@ -15,10 +15,8 @@
 
 [Atmel Studio 7](http://studio.download.atmel.com/7.0.2389/as-installer-7.0.2389-full.exe "Atmel Studio 7")
 
-#### Terminal
-[Terminal v1.9b](https://sites.google.com/site/terminalbpp/ "Terminal v1.9b")
+[Terminal v1.9b](hhttps://sites.google.com/site/terminalbpp/t/Terminal20130116.zip?attredirects=0&d=1 "Terminal v1.9b")
 
-#### Plotting Program
 [SerialChart](http://starlino.com/data/serialchart/SerialChart_v034.zip "SerialChart")
 
 <hr/>
