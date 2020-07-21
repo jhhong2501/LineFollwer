@@ -59,6 +59,9 @@ power_error = proportional * Kp + integral * Ki + derivative * Kd;</code></pre>
 #### Regulator
 [LM2576T-5V](https://www.ti.com/lit/ds/symlink/lm2576.pdf?HQS=TI-null-null-mousermode-df-pf-null-wwe&ts=1595291367860&ref_url=https%253A%252F%252Fkr.mouser.com%252F "LMD2576T-5V")
 
+#### Geared DC Motor
+[IG-32GM 03TYPE(12V) 1/5](http://www.dnj.co.kr/catalog_2014/15_IG-32GM%2003,04%20TYPE.pdf "IG-32GM 03TYPE(12V) 1/5")
+
 #### Motor Driver
 [LMD18200 datasheet](https://www.ti.com/lit/ds/symlink/lmd18200.pdf?ts=1595228398915&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMD18200 "Motor Driver")
 
