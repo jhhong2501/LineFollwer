@@ -65,5 +65,6 @@ power_error = proportional * Kp + integral * Ki + derivative * Kd;</code></pre>
 ### Reference
 
 [Normalizing](http://theultimatelinefollower.blogspot.com/2015/12/reading-calibrating-and-normalizing.html "Normalizing")
+
 [PID Control](https://en.wikipedia.org/wiki/PID_controller "PID")
 
