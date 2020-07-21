@@ -21,6 +21,7 @@
 #### Plotting Program
 [SerialChart](http://starlino.com/data/serialchart/SerialChart_v034.zip "SerialChart")
 
+### Theory
 
 #### PID Control
 <pre><code>proportional = position - 2000;
